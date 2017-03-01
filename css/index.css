@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, sans-serif;
+}
+
+a {
+  
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+/*header*/
+.header{
+	background-image: url(../image/bg-header.jpg);
+	background-repeat: repeat-x;
+	background-position: top left;
+}
+.header{
+	width: 100%;
+	height: 160px;
+}
+.header-center{
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-nav{
+	top: 55px;
+    position: absolute;
+    right: 0;
+}
+.header-nav li{
+	float:left;
+	font-size: 16px;
+	margin-left: 50px;
+
+}
+.header-nav li a{
+	color: #834207;
+	text-shadow: -5px 5px 2px #000;
+}
+.header-nav li a:hover{
+	color: #e29b1f;
+}
+/*content*/
+.content{
+	width: 100%;
+    margin-bottom: 100px;
+}
+.content-center{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	color: #b19fa9;
+}
+.content-center p{
+    width: 500px;
+    margin: 20px auto;
+    font-size: 12px;
+    line-height: 2.0;
+}
+/*content-gallery*/
+.content-gallery{
+   width: 100%;
+   background: #fff0c2;
+   padding: 50px;
+   background-image: url(../image/bg-featured.png);
+   margin-bottom: 50px;
+}
+.gallery-nav{
+   background-repeat: no-repeat; 
+   width: 980px;
+   margin: 0 auto;
+}
+.content-gallery .item{
+	width: 300px;
+	float: left;
+	margin-right: 40px;
+}
+#no-margin{
+	margin-right: 0;
+}
+.item p{
+	font-size: 12px;
+	color: #b19e9e;
+	text-align: center;
+}
+
+
+
+/*clear*/
+.clear:after{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;;
+}
+
+
+
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+}
+.footer-border{
+    height: 10px;
+    background-image: url(../image/content-border.jpg);
+    background-repeat: repeat-x;    
+}
+.footer-bg-body{
+	height: 150px;
+	background-image: url(../image/bg-body.jpg);
+	background-repeat: repeat-x;
+	position: relative;
+		
+}
+.bg-footer{
+	height: 100px;
+	background-image: url(../image/bg-footer.png);
+	background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+}
+.logo-nav{
+	width: 300px;
+	margin:0 auto;
+}
+.copy-right{
+	color: #8a6834;
+	text-align: center;
+	margin-top: 10px;
+}
+.logo-nav li{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.logo-nav li a{
+    background-image: url(../image/icons.png);
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
